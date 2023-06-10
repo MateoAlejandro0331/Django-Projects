@@ -1,0 +1,22 @@
+{% extends 'default.html' %}
+
+<!--export the content into default.html-->
+
+{% block title %} Welcome Page {% endblock %} {% block content %}
+
+<div class="card-group">
+  {% for post in posts %}
+  <div class="card">
+    <img class="card-img-top" src="" alt="" />
+    <div class="card-body">
+      <h5 class="card-title"><a href="{% url 'detail' post.id %}">{{post.title}}</a></h5>
+      <p class="card-text">{{post.body}}</p>
+      <p class="card-text">
+      </p>
+    </div>
+  </div>
+  {% endfor %}
+  <!--For loop in jinja to show all the objects in the date base-->
+</div>
+
+{% endblock %}

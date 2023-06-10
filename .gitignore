@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+*.pyo
+*.pyc
+*.pyo
+*.pyd
+
+# Django
+*.log
+*.pot
+*.pyc
+local_settings.py
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+
+# React
+build/
+dist/
+coverage/
+.cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDEs / Editors
+.idea/
+.vscode/
+*.swp
+*~
+
+# Miscellaneous
+*.sqlite3
+*.pytest_cache/
+.env
+
+# Ignore all .env files except .env.example
+!.env.example
+Este archivo .gitignore evitará que se suban los archivos y directorios mencionados, como los archivos pycache, los módulos de Node.js, los archivos de construcción de React, los archivos generados por IDEs y otros archivos y directorios comunes que no son necesarios en un repositorio de GitHub.
+
+
+
+
+
+
